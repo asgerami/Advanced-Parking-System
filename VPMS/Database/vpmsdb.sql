@@ -13,8 +13,9 @@ CREATE TABLE `tbladmin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin', 'admin', 0989879979, 'tester1@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-07-05 05:38:23')
-(1, 'Amir', 'amir', 0900110011, 'asgeramii@gmail.com', '123456789', '2019-07-05 05:38:23');
+(1, 'Admin', 'admin', 0989879979, 'tester1@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2023-07-05 05:38:23'),
+(2, 'Amir', 'amir', 0900110011, 'asgeramii@gmail.com', '123456789', '2023-07-05 05:38:23');
+
 
 CREATE TABLE `tblcategory` (
   `ID` int(10) NOT NULL,
@@ -59,7 +60,6 @@ CREATE TABLE `tblvehicle` (
   `Status` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-
 INSERT INTO `tblvehicle` (`ID`, `ParkingNumber`, `VehicleCategory`, `VehicleCompanyname`, `RegistrationNumber`, `OwnerName`, `OwnerContactNumber`, `InTime`, `OutTime`, `ParkingCharge`, `Remark`, `Status`) VALUES
 (1, '521796069', 'Two Wheeler Category', 'Hyundai', 'AA-678787', 'Chube Amare', 0987987987, '2022-05-09 05:58:38', '2022-05-09 11:38:04', '50 Birr.', 'NA', 'Out'),
 (2, '469052796', 'Two Wheeler Vehicle', 'Honda', 'OR-895623', 'Chala', 0989898989, '2022-05-06 08:58:38', '2022-05-07 11:09:33', '35 Birr.', 'NA', 'Out'),
@@ -68,6 +68,7 @@ INSERT INTO `tblvehicle` (`ID`, `ParkingNumber`, `VehicleCategory`, `VehicleComp
 (5, '323009894', 'Two Wheeler Vehicle', 'Activa', 'AM-C55776', 'Abeni', 0954654654, '2022-05-06 08:58:38', '2022-05-06 08:59:24', '', '', ''),
 (6, '522578915', 'Two Wheeler Vehicle', 'Apache', 'AA-895623', 'Mengistu', 0978999879, '2022-05-06 08:58:38', '2022-05-09 04:43:50', '', '', ''),
 (7, '917725207', 'Four Wheeler Vehicle', 'Jetour', 'AA-A12323', 'Abebe', 0934567890, '2022-05-07 11:03:05', '2022-05-09 04:43:55', '50 Birr.', 'ljlkjlk', 'Out');
+
 
 
 ALTER TABLE `tbladmin`
