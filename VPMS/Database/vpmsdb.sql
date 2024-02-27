@@ -13,7 +13,8 @@ CREATE TABLE `tbladmin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin', 'admin', 7898799798, 'tester1@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-07-05 05:38:23');
+(1, 'Admin', 'admin', 0989879979, 'tester1@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-07-05 05:38:23')
+(1, 'Amir', 'amir', 0900110011, 'asgeramii@gmail.com', '123456789', '2019-07-05 05:38:23');
 
 CREATE TABLE `tblcategory` (
   `ID` int(10) NOT NULL,
