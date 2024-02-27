@@ -34,7 +34,7 @@ echo '<script>alert("This email or Contact Number already associated with anothe
  <html class="no-js" lang="">
 <head>
     
-    <title>VPMS-Signup Page</title>
+    <title>Signup Page</title>
    
 
 

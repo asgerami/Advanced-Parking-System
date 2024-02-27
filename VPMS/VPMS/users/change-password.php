@@ -29,7 +29,7 @@ echo '<script>alert("Your current password is wrong.")</script>';
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Change Password</title>
+    <title>Change Password</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">

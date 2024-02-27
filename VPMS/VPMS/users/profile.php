@@ -25,7 +25,7 @@ echo '<script>window.location.href=profile.php</script>';
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - User Profile</title>
+    <title>User Profile</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
