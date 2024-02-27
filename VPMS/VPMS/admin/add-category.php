@@ -28,7 +28,7 @@ echo "<script>window.location.href='manage-category.php'</script>";
 <html class="no-js" lang="">
 <head>
     
-    <title>VPMS - Add Category</title>
+    <title>Add Category</title>
    
 
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
