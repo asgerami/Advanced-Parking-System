@@ -10,9 +10,6 @@ jQuery(document).ready(function($) {
 
 	jQuery('.selectpicker').selectpicker;
 
-
-	
-
 	$('.search-trigger').on('click', function(event) {
 		event.preventDefault();
 		event.stopPropagation();
@@ -29,11 +26,6 @@ jQuery(document).ready(function($) {
 		property: 'max-height'
 	});
 
-	// var chartsheight = $('.flotRealtime2').height();
-	// $('.traffic-chart').css('height', chartsheight-122);
-
-
-	// Counter Number
 	$('.count').each(function () {
 		$(this).prop('Counter',0).animate({
 			Counter: $(this).text()
@@ -46,10 +38,6 @@ jQuery(document).ready(function($) {
 		});
 	});
 
-
-	 
-	 
-	// Menu Trigger
 	$('#menuToggle').on('click', function(event) {
 		var windowWidth = $(window).width();   		 
 		if (windowWidth<1010) { 
@@ -75,7 +63,6 @@ jQuery(document).ready(function($) {
 	});
 
 
-	// Load Resize 
 	$(window).on("load resize", function(event) { 
 		var windowWidth = $(window).width();  		 
 		if (windowWidth<1010) {

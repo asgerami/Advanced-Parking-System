@@ -1,8 +1,6 @@
 ( function ( $ ) {
     "use strict";
 
-
-    
  $.plot("#flotBar1", [{
   data: [[0, 3], [2, 8], [4, 5], [6, 13],[8,5], [10,7],[12,4], [14,6]],
   bars: {
@@ -32,7 +30,6 @@
       show: true,
       tension: 0.4,
       lineWidth: 2
-        //fill: 0.4
       },
       shadowSize: 0
     },
